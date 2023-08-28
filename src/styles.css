@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  background: black;
+}
+.drop-down {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 200px;
+  width: 200px;
+  height: 30px;
+  font-size: 1.1em;
+}
+.panel {
+  margin-top: 20px;
+  background: white;
+  width: 100%;
+  height: 250px;
+  overflow-y: scroll;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.panel__input {
+  background-color: chartreuse;
+}
